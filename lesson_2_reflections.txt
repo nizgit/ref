@@ -1,10 +1,19 @@
-What happens when you initialize a repository? Why do you need to do it?
+1. What happens when you initialize a repository? Why do you need to do it?
 
-When you initialize a repository it enables git tracking and features in the directory it was 
-initialized(git init). You need it to use git and all it's features.
+When you initialize a repository it enables git tracking and features in the directory it was initialized(git init). You need it to use git and all it's features.
 
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is different from the working directory because the file(s) are being tracked and basically ready to be pushed/committed to git. It differs from the repository since it's an in-between area where files go before the repository if they are ready to be pushed to the repo. 
 The staging area offers great value to track changes made to the files before they are committed to a repo/production ready environment. 
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+You can do this by comparing the differences using variations of the 'git diff' command to see the changes you have made so far and added to the staging area. This allows you to make a commit when you have made a logical change to the code.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Some situations would be when you make a significant change to the code base, such as creating an easy-mode for a game or testing out experimental features that may not be stable. Having branches would help by allowing you to easily seperate and file your work into branches allowing you to easily switch back and forth, while maintaining the master stable code branch while you work on new features etc. 
+
+5. 
