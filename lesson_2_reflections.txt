@@ -16,4 +16,6 @@ You can do this by comparing the differences using variations of the 'git diff' 
 
 Some situations would be when you make a significant change to the code base, such as creating an easy-mode for a game or testing out experimental features that may not be stable. Having branches would help by allowing you to easily seperate and file your work into branches allowing you to easily switch back and forth, while maintaining the master stable code branch while you work on new features etc. 
 
-5. 
+5. How do diagrams help you visualize the branch structure?
+
+Diagrams allow you to visualize the parent-child relationship between branches/commits.
