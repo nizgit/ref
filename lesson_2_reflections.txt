@@ -18,4 +18,4 @@ Some situations would be when you make a significant change to the code base, su
 
 5. How do diagrams help you visualize the branch structure?
 
-Diagrams allow you to visualize the parent-child relationship between branches/commits.
+Diagrams allow you to visualize the parent-child relationship between branches/commits, as well as other workings in the repository. 
