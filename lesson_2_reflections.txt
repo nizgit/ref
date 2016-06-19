@@ -19,3 +19,11 @@ Some situations would be when you make a significant change to the code base, su
 5. How do diagrams help you visualize the branch structure?
 
 Diagrams allow you to visualize the parent-child relationship between branches/commits, as well as other workings in the repository. 
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is the changes from the 'other' branch become part of the codebase for the master branch. It's represented in the diagram to display the parent-child relationship, in order to know which commit comes from.
+
+7. What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Automatic merging saves time, unless there are conflicts in the code being commited. Then we need to use manual merge which requires us to fix the conflict or rather the code to be able to complete the merge.
